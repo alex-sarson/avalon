@@ -1,5 +1,5 @@
 # Avalon
-Mobile app version of the Avalon boardgame.
+Mobile app for the Avalon board game.
 Written in React Native by Alex & Tott 🧑🏾🧑🏻
 
 ## App Journey
