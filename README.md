@@ -1,14 +1,16 @@
 # Avalon
+
 Mobile app for the Avalon board game.
 Written in React Native by Alex & Tott 🧑🏾🧑🏻
 
 ## App Journey
-- [ ] Load screen/opening screen
-- [ ] Initial game setup screen
-- [ ] Character card reveal ***pass around***
+
+- [x] Load screen/opening screen - functionality
+- [x] Initial game setup screen - functionality
+- [ ] Character card reveal **_pass around_**
 - [ ] Team captain assignment && Lady of the lake assignment
 - [ ] Quest breakdown && Team captain chooses partakers screen
-- [ ] Quest voting ***pass around***
+- [ ] Quest voting **_pass around_**
 - [ ] Quest results screen
   - [ ] Result logging somewhere permanently on screen
 - [ ] Conditional logic that checks to see if the game is over after every quest
