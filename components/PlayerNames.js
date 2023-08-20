@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { StyleSheet, TextInput, View } from 'react-native';
 
-export default function PlayerNames({ count, setPlayerData }) {
+export default function PlayerNames({ count, setPlayerData, playerData }) {
   const [playerNames, setPlayerNames] = useState([]);
   const fields = Array.from({ length: count }, (_, i) => i);
-  setPlayerData(playerNames);
+  useEffect(() => {
+    setPlayerData(playerNames);
+  });
 
   // TODO: make it so that there can't be duplicate names stored in the playerNames array.
 

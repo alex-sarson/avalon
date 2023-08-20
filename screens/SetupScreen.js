@@ -34,7 +34,7 @@ export default function SetupScreen() {
     <SafeAreaView style={styles.container}>
       <ScrollView>
         <View style={styles.numberOfPlayers}>
-          <Text>Choose how many players are in this game</Text>
+          <Text>Choose how many players are going to play:</Text>
           <Slider
             style={{ width: 200, height: 40 }}
             step={1}
